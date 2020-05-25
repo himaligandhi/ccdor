@@ -98,7 +98,7 @@ s.parentNode.insertBefore(b, s);})();
                 <div class="col-md-4 col-sm-6">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="images/commercialbuil.jpg" style="height:200px;">
+                            <img src="images/CommercialRealEstatehome2.jpg" style="height:200px;">
                         </div>
                         <div class="team-content">
                             <h3 class="title">Commerical Real Estate Development </h3>
@@ -112,7 +112,7 @@ s.parentNode.insertBefore(b, s);})();
                     <div class="col-md-4 col-sm-6">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="images/AutomotiveFina.jpg" style="height:200px;">
+                            <img src="images/auto.jpg" style="height:200px;">
                         </div>
                         <div class="team-content">
                             <h3 class="title">Automotive</h3>

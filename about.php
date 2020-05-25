@@ -92,14 +92,15 @@ h1 {
 .image-hover-image 
 {
  display: block;
- opacity: 0.3;
+ opacity: 1;
 }
+
 /* Make the image round */
 .image-hover-image img
 {
   height: 250px;
+  opacity:1;
 }
-
 .image-hover-text 
 {
   position: absolute;
@@ -124,7 +125,7 @@ h1 {
   top: 0; left: 0; right: 100%;
   height: 250px;
   text-align: center;
-  /* background: #FBFBFB; */
+  background: #FBFBFB;
   /* border: 1px solid #848484; */
   /* border-radius: 50%; */
   margin: 0 auto;
@@ -133,6 +134,7 @@ h1 {
   font-size: 16px;
   text-align: center;
   word-wrap: break-word;
+  opacity: 0.8;
 }
 
 .image-hover-text .image-hover-text-title
@@ -182,9 +184,6 @@ h1 {
 } */
 </style>
 
-
-</style>
-
    </head>
 <body id="page-top" class="politics_version">
     <?php include('header.php');?>
@@ -207,23 +206,23 @@ h1 {
         <div class="mySlides">
             
             <img src="images/Construction.jpg" style="width:100%; height:400px;">
-            <div class="text" style="color:white; font-size:2.8em;"><strong>Construction Financing Solutions</strong> </div>
+            <div class="text" style="color:#840144; font-size:2.8em; width:900px; height:70px;background-color: white;"><strong>CONSTRUCTION FINANCING SOLUTIONS</strong> </div>
           
-           <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 15px;"/>
+           <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 20px;"/>
         
         </div>
 
         <div class="mySlides">
             
-            <img src="images/CommercialRealEstatehome2.jpg" style="width:100%; height:400px;">
-            <div class="text" style="color:white;font-size:2.8em;"><strong>Real Estate Financing Solutions</strong></div>
-            <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 15px;"/>
+            <img src="images/real.jpg" style="width:100%; height:400px;">
+            <div class="text" style="color:#840144;font-size:2.8em;width:900px; height:70px;background-color:white;"><strong>REAL ESTATE FINANCING SOLUTIONS</strong></div>
+            <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 20px;"/>
         </div>
         <div class="mySlides">
             
             <img src="images/WholesaleDistributionhome1.jpg" style="width:100%; height:400px;">
-            <div class="text" style="color:white; font-size:2.8em;"><strong>Account Receivable, Purchase Order & Equipment Financing Solutions</strong></div>
-            <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 15px;"/>
+            <div class="text" style="color:#840144;font-size:2.8em;width:900px; height:70px;background-color:white;"><strong>Account Receivable, Purchase Order & Equipment Financing Solutions</strong></div>
+            <input type="button" name="next" class="aapy action-button" value="MORE INFO"  onclick="openWin()" style="margin-top: 20px;"/>
         </div>
 
     </div>
@@ -302,12 +301,7 @@ h1 {
 							</div>
                         </div> -->
                         
-                        <div id="myBtnContainer" style="text-align:center;">
-  <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
-  <button class="btn" onclick="filterSelection('blogs')"> BLOGS</button>
-  <button class="btn" onclick="filterSelection('social')"> SOCIAL MEDIA</button>
-  <button class="btn" onclick="filterSelection('casestudy')"> CASE STUDIES</button>
-</div>
+                       
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
@@ -327,6 +321,7 @@ h1 {
           </div> 
     </div>
   </div>
+  
   <!-- <div class="column nature">
     <div class="content">
     <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
@@ -410,12 +405,17 @@ h1 {
 
 <!-- END MAIN -->
 </div>
-
+<div id="myBtnContainer" style="text-align:center;">
+  <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+  <button class="btn" onclick="filterSelection('blogs')"> BLOGS</button>
+  <button class="btn" onclick="filterSelection('social')"> SOCIAL MEDIA</button>
+  <button class="btn" onclick="filterSelection('casestudy')"> CASE STUDIES</button>
+</div>
      
-						<div class="blog-btn">
+						<!-- <div class="blog-btn">
 						
 							<a href="insights.php" class="btn" style="margin-top:20px;">Click Here for more INSIGHTS</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				

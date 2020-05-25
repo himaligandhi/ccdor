@@ -127,15 +127,17 @@ img {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: xx-large;
-    padding: 8px 12px;
+    /* color:#8E0414; */
+    
+     /* padding: 8px 12px; */
     position: absolute;
-    bottom: 8px;
+    /* bottom: 8px;  */
     width: 100%;
     text-align: center;
     top:50%;
     bottom:50%;
+    right:20%;
+    left:20%;
 }
 /* The dots/bullets/indicators */
 .dot {
